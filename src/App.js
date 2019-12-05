@@ -12,7 +12,8 @@ function App() {
         <a className="navbar-brand js-scroll-trigger" href="#page-top">
           <span className="d-block d-lg-none">Joel Derrick</span>
           <span className="d-none d-lg-block">
-            <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="./img/IMG_20190629_170527.jpg" alt="" />
+           <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={require('../src/img/IMG_3327.jpg')} alt="" />
+
           </span>
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,9 +36,6 @@ function App() {
             <li className="nav-item">
               <a className="nav-link js-scroll-trigger" href="#interests">Interests</a>
             </li>
-            {/*<li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#awards">Awards</a>
-            </li>*/}
           </ul>
         </div>
       </nav>
@@ -49,10 +47,10 @@ function App() {
             <h1 className="mb-0">Joel
           <span className="text-primary">Derrick</span>
             </h1>
-            <div className="subheading mb-5">Madambakkam, Chennai. +91 9629411059 ·
-          <a href="mailto:name@email.com">joel.derrickclad@gmail.com</a>
+            <div className="subheading mb-5">Chennai. +91 9629411059 ·
+          <a href="mailto:joel.derrickclad@gmail.com">joel.derrickclad@gmail.com</a>
             </div>
-            <p className="lead mb-5">Full stack .NET developer with a keen interest in design and development of Microsoft web and desktop applications.</p>
+            <p className="lead mb-5">Full stack .NET developer with a keen interest in design and development of Microsoft Web and Desktop applications.</p>
            
             
             <div className="social-icons">
